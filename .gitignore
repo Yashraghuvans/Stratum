@@ -1,0 +1,79 @@
+# Xcode
+.DS_Store
+*.xcodeproj/
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/xcuserdata/
+build/
+DerivedData/
+*.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+!*.xcworkspace/xcshareddata/
+*.playground/
+*.playground/xcuserdata/
+*.xcassets/
+!*.xcassets/**/*.imageset/
+!*.xcassets/**/*.colorset/
+!*.xcassets/**/*.appiconset/
+!*.xcassets/**/*.launchimage/
+!*.xcassets/**/*.dataset/
+!*.xcassets/**/*.imagestack/
+!*.xcassets/**/*.cubetextureset/
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods
+Pods/
+!Pods/Manifest.lock
+
+# Carthage
+Carthage/
+!Carthage/Build/
+
+# fastlane
+fastlane/report.xml
+fastlane/screenshots/
+fastlane/test_output/
+
+# User-specific files
+*.xcuserdatad/
+*.xcuserstate
+
+# Logs
+*.log
+
+# Backups
+*.bak
+*.orig
+*.swp
+*~.nib
+*.xcbkpt
+
+# Generated files
+*.ipa
+*.dSYM.zip
+*.app.dSYM
+
+# Other common files
+.localized
+.lsbom
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Xcode specific exclusions
+## Auto-generated UI/Previews
+Preview Content/
+*.swift-generated
+*.storyboardc/
+
+# Important: Keep the project.pbxproj and shared data in .xcodeproj
+# For example, if you have a multi-target project or custom build settings
+# that need to be shared, make sure they are NOT ignored.
+
+# Exclude .gitignore itself from the repository
+# If you don't want to track changes to your .gitignore file
+# /.gitignore
