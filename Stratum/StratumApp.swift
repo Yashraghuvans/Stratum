@@ -1,17 +1,16 @@
-//
-//  StratumApp.swift
-//  Stratum
-//
-//  Created by Yash Raghuvanshi on 23/06/25.
-//
-
 import SwiftUI
 
 @main
 struct StratumApp: App {
+    
+    @StateObject private var vm = HomeViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView(){
+                HomeView()
+                    .navigationBarHidden(true)
+            }
+            .environmentObject(vm)
         }
     }
 }
